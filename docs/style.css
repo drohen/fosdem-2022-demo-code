@@ -1,0 +1,39 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: #232323;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+button {
+  width: 10rem;
+  height: 10rem;
+  font-size: 4rem;
+  padding: 2rem;
+  background: transparent;
+  border: 2px solid white;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+}
+
+button:after {
+  position: absolute;
+  display: block;
+  content: '';
+  width: 2px;
+  height: 30%;
+  bottom: 0;
+  left: calc(50% - 1px);
+  background: white;
+  z-index: -1;
+}
