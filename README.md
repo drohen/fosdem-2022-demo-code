@@ -6,7 +6,7 @@ Quickly and cheaply doing design discovery and prototype development with only a
 
 ## How to use
 
-The web application code is available under the `docs` directory. It is also available at [drohen.github.com/fosdem-2022-demo-code](https://drohen.github.com/fosdem-2022-demo-code).
+The web application code is available under the `docs` directory. It is also available at [drohen.github.com/fosdem-2022-demo-code](https://drohen.github.io/fosdem-2022-demo-code/).
 
 The code in the `rp2040` directory needs to run on a [RP2040](https://en.wikipedia.org/wiki/RP2040), like the [Raspberry Pi Pico](https://www.raspberrypi.com/products/raspberry-pi-pico/), or in an [emulator](https://wokwi.com/arduino/new?template=kaluma-pi-pico). This code is designed to work with the [Kaluma](https://kaluma.io/) runtime, so this must also be on the chip, [please follow the instructions here](https://docs.kaluma.io/getting_started) to do so.
 
